@@ -33,7 +33,7 @@ export default class Navigation extends React.Component {
         <Navbar color="light" light expand="md">
           <NavbarBrand href="mailto:george130562@yahoo.com?Subject=Contact">
             {" "}
-            Contact{" "}
+            Email{" "}
           </NavbarBrand>{" "}
           <NavItem> Phone: 424 - 202 - 4770 </NavItem>{" "}
           <NavbarToggler onClick={this.toggle} />{" "}
