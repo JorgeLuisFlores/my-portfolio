@@ -11,9 +11,8 @@ const Jumbo = props => {
       <Jumbotron>
         <h1 className="display-3"> Welcome, my name is Jorge Flores. </h1>{" "}
         <p style={style} className="lead">
-          {" "}
-          Full Stack Web Developer{" "}
-        </p>{" "}
+          Full Stack Web Developer
+        </p>
         <p style={style}>
           Junior Front End/UI Developer with >1 year experience in designing
           user experiences/ web applications using HTML, CSS(LESS), JavaScript
@@ -22,12 +21,14 @@ const Jumbo = props => {
         </p>
         <hr className="my-2" />
         <p style={style}>
-          {" "}
-          <b>Tech Stack</b> <br></br>• React <br></br>• Git <br></br>•
-          Javascript <br></br>• LESS CSS <br></br> • HTML <br></br>{" "}
-        </p>{" "}
-        <p className="lead"></p>{" "}
-      </Jumbotron>{" "}
+          <b> Tech Stack </b> <br />
+          • React <br />
+          • Git <br />
+          • Javascript <br />
+          • LESS CSS <br />• HTML
+        </p>
+        <p className="lead"></p>
+      </Jumbotron>
     </div>
   );
 };
